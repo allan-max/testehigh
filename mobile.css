@@ -1,0 +1,15 @@
+.produtos-coluna {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .produtos-coluna {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+}

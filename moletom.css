@@ -1,0 +1,24 @@
+.imagem-com-descricao {
+  display: flex; /* Use o flexbox para alinhar os elementos lado a lado */
+  align-items: center; /* Alinhe verticalmente os elementos */
+}
+
+.imagem-com-descricao img {
+  width: 450px; /* Defina a largura da imagem conforme necessário */
+  height: 400px; /* Mantenha a proporção da imagem */
+  margin-right: 10px; /* Adicione margem à direita para separar a imagem da descrição */
+}
+
+.imagem-com-descricao p {
+  margin: 0; /* Remova a margem padrão do parágrafo */
+  font-size: large;
+  position: absolute;
+  top: 150px;
+  left: 470px;
+}
+
+h1 {
+  position: absolute; /* Use posição absoluta para mover livremente */
+  top: 50px; /* Distância em pixels do topo do elemento pai */
+  left: 470px; /* Distância em pixels da esquerda do elemento pai */
+}

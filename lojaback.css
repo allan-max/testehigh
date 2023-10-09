@@ -1,0 +1,83 @@
+body {
+  /*background: url(imagens/tela\ back.png);*/
+  background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  text-align: center;
+}
+
+article {
+  background-color: #1111;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: azure;
+}
+
+.produtos-coluna {
+  text-align: left;
+  text-decoration: none;
+  display: flex;
+}
+
+.produtos-coluna img {
+  margin-right: 60px;
+}
+
+.product__link {
+  text-decoration: none;
+  color: aliceblue;
+  display: inline-block; /* Define as imagens como elementos de bloco em linha */
+  margin-right: 10px; /* Adiciona um espaço entre as imagens (opcional) */
+}
+
+/* Estilização da Navbar */
+.navbar {
+  background-color: none;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+.botãodrop {
+  position: absolute;
+  top: 890px;
+  left: 50%;
+}
+
+.drop {
+  position: absolute;
+  left: 50%;
+  top: 650px;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
